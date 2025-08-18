@@ -302,10 +302,11 @@ export const microInteractions = {
   magneticButton: (button: Element) => {
     if (!window.gsap) return;
     
-    const handleMouseMove = (e: MouseEvent) => {
+    const handleMouseMove = (e: Event) => {
+      const mouseEvent = e as MouseEvent;
       const rect = button.getBoundingClientRect();
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
+      const x = mouseEvent.clientX - rect.left - rect.width / 2;
+      const y = mouseEvent.clientY - rect.top - rect.height / 2;
       
       window.gsap.to(button, {
         duration: ANIMATION_CONFIG.duration.fast,
