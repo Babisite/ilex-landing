@@ -494,7 +494,7 @@ export const initAnimations = () => {
 };
 
 // Export all animation functions
-export default {
+const animations = {
   initAnimations,
   textAnimations,
   sectionTransitions,
@@ -503,3 +503,5 @@ export default {
   setupScrollTriggers,
   cleanupAnimations,
 };
+
+export default animations;

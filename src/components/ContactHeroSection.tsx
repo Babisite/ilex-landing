@@ -33,7 +33,7 @@ const ContactHeroSection: React.FC = () => {
         message: ''
       });
     } catch (error) {
-      console.error('Erreur lors de l\'envoi:', error);
+      console.error('Erreur lors de l&apos;envoi:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -89,7 +89,7 @@ const ContactHeroSection: React.FC = () => {
               </h1>
 
               <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed max-w-lg">
-                <span className="hidden sm:inline">Une question, une suggestion ou besoin d'aide ? Notre équipe est là pour vous accompagner !</span>
+                <span className="hidden sm:inline">Une question, une suggestion ou besoin d&apos;aide ? Notre équipe est là pour vous accompagner !</span>
                 <span className="sm:hidden">Une question ? Notre équipe vous accompagne !</span>
               </p>
             </div>
@@ -99,7 +99,7 @@ const ContactHeroSection: React.FC = () => {
               {[
                 { icon: '📞', title: 'Téléphone', titleMobile: 'Tel', info: '+225 07 10 17 91 40', infoMobile: '07 10 17 91 40' },
                 { icon: '📧', title: 'Email', titleMobile: 'Email', info: 'contact@ilex-delivery.com', infoMobile: 'contact@ilex-delivery.com' },
-                { icon: '📍', title: 'Adresse', titleMobile: 'Adresse', info: 'Abidjan, Côte d\'Ivoire', infoMobile: 'Abidjan, CI' },
+                { icon: '📍', title: 'Adresse', titleMobile: 'Adresse', info: 'Abidjan, Côte d&apos;Ivoire', infoMobile: 'Abidjan, CI' },
                 { icon: '⏰', title: 'Horaires', titleMobile: 'Horaires', info: '24h/24 - 7j/7', infoMobile: '24/7' },
               ].map((contact, index) => (
                 <div key={index} className="flex items-center gap-2 sm:gap-3 bg-white/60 backdrop-blur-sm p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-orange-200">
@@ -228,8 +228,8 @@ const ContactHeroSection: React.FC = () => {
                   <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-xl text-center">
                     <span className="flex items-center justify-center gap-2">
                       <span>❌</span>
-                      <span className="sm:hidden">Erreur d'envoi</span>
-                      <span className="hidden sm:inline">Erreur lors de l'envoi</span>
+                      <span className="sm:hidden">Erreur d&apos;envoi</span>
+                      <span className="hidden sm:inline">Erreur lors de l&apos;envoi</span>
                     </span>
                   </div>
                 )}

@@ -34,7 +34,7 @@ const DeliveryHeroSection: React.FC = () => {
         vehicule: 'moto'
       });
     } catch (error) {
-      console.error('Erreur lors de l\'envoi:', error);
+      console.error('Erreur lors de l&apos;envoi:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -77,7 +77,7 @@ const DeliveryHeroSection: React.FC = () => {
               <div className="inline-block">
                 <span className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-3 sm:px-6 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-bold uppercase tracking-wider">
                   <span className="sm:hidden">Équipe</span>
-                  <span className="hidden sm:inline">Rejoignez l'équipe</span>
+                  <span className="hidden sm:inline">Rejoignez l&apos;équipe</span>
                 </span>
               </div>
 
@@ -98,7 +98,7 @@ const DeliveryHeroSection: React.FC = () => {
             {/* Avantages - optimisés mobile */}
             <div className="grid grid-cols-2 sm:grid-cols-2 gap-2 sm:gap-4">
               {[
-                { icon: '💰', title: 'Revenus attractifs', titleMobile: 'Revenus', desc: 'Jusqu\'à 150k FCFA/mois', descMobile: '150k/mois' },
+                { icon: '💰', title: 'Revenus attractifs', titleMobile: 'Revenus', desc: 'Jusqu&apos;à 150k FCFA/mois', descMobile: '150k/mois' },
                 { icon: '⏰', title: 'Horaires flexibles', titleMobile: 'Flexible', desc: 'Travaillez quand vous voulez', descMobile: 'Quand vous voulez' },
                 { icon: '🛡️', title: 'Assurance incluse', titleMobile: 'Assuré', desc: 'Protection complète', descMobile: 'Protection' },
                 { icon: '📱', title: 'App moderne', titleMobile: 'App', desc: 'Interface simple et efficace', descMobile: 'Simple' },
@@ -222,8 +222,8 @@ const DeliveryHeroSection: React.FC = () => {
                   <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-xl text-center">
                     <span className="flex items-center justify-center gap-2">
                       <span>❌</span>
-                      <span className="sm:hidden">Erreur d'envoi</span>
-                      <span className="hidden sm:inline">Erreur lors de l'envoi</span>
+                      <span className="sm:hidden">Erreur d&apos;envoi</span>
+                      <span className="hidden sm:inline">Erreur lors de l&apos;envoi</span>
                     </span>
                   </div>
                 )}
@@ -240,7 +240,7 @@ const DeliveryHeroSection: React.FC = () => {
             <div className="relative z-20 lg:absolute lg:-top-72 lg:right-0 lg:transform lg:translate-y-0">
               <Image
                 src="/images/rejoindre2.png"
-                alt="Livreur ILEX - Rejoignez l'équipe"
+                alt="Livreur ILEX - Rejoignez l&apos;équipe"
                 width={500}
                 height={800}
                 quality={100}

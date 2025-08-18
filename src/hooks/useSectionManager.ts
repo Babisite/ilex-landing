@@ -35,7 +35,7 @@ export const useSectionManager = () => {
     setIsTransitioning(true);
     
     const currentConfig = getSectionConfig(currentSection);
-    const targetConfig = getSectionConfig(targetSection);
+    // const targetConfig = getSectionConfig(targetSection);
     
     try {
       // Execute transition animation

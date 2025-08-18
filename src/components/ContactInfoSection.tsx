@@ -34,8 +34,8 @@ const ContactInfoSection: React.FC = () => {
             <span className="text-gray-900">Besoin</span>
             <br />
             <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
-              <span className="sm:hidden">d'Aide ?</span>
-              <span className="hidden sm:inline">d'Aide ?</span>
+              <span className="sm:hidden">d&apos;Aide ?</span>
+              <span className="hidden sm:inline">d&apos;Aide ?</span>
             </span>
           </h2>
           <p className="text-sm sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
@@ -57,7 +57,7 @@ const ContactInfoSection: React.FC = () => {
               {
                 q: 'Comment passer une commande ?',
                 qMobile: 'Comment commander ?',
-                a: 'Téléchargez l\'app, choisissez vos produits et validez.',
+                a: 'Téléchargez l&apos;app, choisissez vos produits et validez.',
                 aMobile: 'App → produits → validation'
               },
               {

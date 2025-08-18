@@ -25,7 +25,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
           {/* Header */}
           <div className="bg-gradient-to-r from-amber-600 to-yellow-600 px-8 py-6">
             <div className="flex items-center justify-between">
-              <h2 className="text-3xl font-black text-white">📋 Conditions d'Utilisation</h2>
+              <h2 className="text-3xl font-black text-white">📋 Conditions d&apos;Utilisation</h2>
               <button
                 onClick={onClose}
                 className="text-white hover:text-gray-200 transition-colors p-2 hover:bg-white/20 rounded-xl"
@@ -41,8 +41,8 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptation des conditions</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  En utilisant l'application ILEX, vous acceptez d'être lié par ces conditions d'utilisation. 
-                  Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre service.
+                  En utilisant l&apos;application ILEX, vous acceptez d&apos;être lié par ces conditions d&apos;utilisation. 
+                  Si vous n&apos;acceptez pas ces conditions, veuillez ne pas utiliser notre service.
                 </p>
               </div>
               
@@ -65,7 +65,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">3. Inscription et compte utilisateur</h3>
                 <div className="space-y-4">
                   <div className="bg-blue-50 p-6 rounded-2xl">
-                    <h4 className="text-xl font-bold text-blue-600 mb-2">📱 Conditions d'inscription</h4>
+                    <h4 className="text-xl font-bold text-blue-600 mb-2">📱 Conditions d&apos;inscription</h4>
                     <ul className="text-gray-700 list-disc list-inside space-y-1">
                       <li>Être âgé de 15 ans minimum</li>
                       <li>Fournir des informations exactes et à jour</li>
@@ -126,7 +126,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">6. Responsabilités</h3>
                 <div className="space-y-4">
                   <div className="bg-orange-50 p-6 rounded-2xl">
-                    <h4 className="text-xl font-bold text-orange-600 mb-2">🏢 ILEX s'engage à :</h4>
+                    <h4 className="text-xl font-bold text-orange-600 mb-2">🏢 ILEX s&apos;engage à :</h4>
                     <ul className="text-gray-700 list-disc list-inside space-y-1">
                       <li>Fournir un service de qualité</li>
                       <li>Protéger vos données personnelles</li>
@@ -136,7 +136,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
                   </div>
                   
                   <div className="bg-blue-50 p-6 rounded-2xl">
-                    <h4 className="text-xl font-bold text-blue-600 mb-2">👤 L'utilisateur s'engage à :</h4>
+                    <h4 className="text-xl font-bold text-blue-600 mb-2">👤 L&apos;utilisateur s&apos;engage à :</h4>
                     <ul className="text-gray-700 list-disc list-inside space-y-1">
                       <li>Utiliser le service de manière responsable</li>
                       <li>Fournir des informations exactes</li>
@@ -152,7 +152,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
                 <div className="bg-gray-50 p-6 rounded-2xl">
                   <p className="text-gray-700 leading-relaxed">
                     ILEX ne peut être tenu responsable des dommages indirects, incidents ou consécutifs 
-                    résultant de l'utilisation du service. Notre responsabilité est limitée au montant 
+                    résultant de l&apos;utilisation du service. Notre responsabilité est limitée au montant 
                     de la commande concernée.
                   </p>
                 </div>
@@ -162,7 +162,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">8. Modifications</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Nous nous réservons le droit de modifier ces conditions à tout moment. 
-                  Les utilisateurs seront notifiés des changements importants par email ou via l'application.
+                  Les utilisateurs seront notifiés des changements importants par email ou via l&apos;application.
                 </p>
               </div>
               
@@ -170,7 +170,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">9. Contact</h3>
                 <div className="bg-green-50 p-6 rounded-2xl">
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Pour toute question concernant ces conditions d'utilisation :
+                    Pour toute question concernant ces conditions d&apos;utilisation :
                   </p>
                   <div className="space-y-2">
                     <p className="text-gray-700">
@@ -194,7 +194,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
               onClick={onClose}
               className="px-8 py-3 bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-bold rounded-2xl hover:from-green-700 hover:to-teal-700 transition-all duration-300 transform hover:scale-105"
             >
-              J'accepte
+              J&apos;accepte
             </button>
           </div>
         </div>

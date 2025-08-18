@@ -1,7 +1,6 @@
 'use client';
 
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link'; 
 
 const NotFound: React.FC = () => {
   return (
@@ -70,7 +69,7 @@ const NotFound: React.FC = () => {
             className="group bg-gradient-to-r from-yellow-400 to-orange-400 text-black px-8 py-4 text-xl font-bold rounded-2xl hover:from-yellow-500 hover:to-orange-500 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
           >
             <span className="flex items-center justify-center gap-3">
-              🏠 Retour à l'accueil
+              🏠 Retour à l&apos;accueil
               <svg className="w-6 h-6 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

@@ -1,6 +1,5 @@
 'use client';
-
-import Link from 'next/link';
+ 
 import Image from 'next/image';
 
 const CTASection: React.FC = () => {
@@ -52,7 +51,7 @@ const CTASection: React.FC = () => {
                 <span className="hidden sm:inline">Prêt à vous</span>
               </span>
               <span className="bg-gradient-to-r from-black to-gray-800 bg-clip-text text-transparent">
-                <span className="sm:hidden">C'est parti !</span>
+                <span className="sm:hidden">C&apos;est parti !</span>
                 <span className="hidden sm:inline">Lancer ?</span>
               </span>
             </h2>
@@ -112,8 +111,8 @@ const CTASection: React.FC = () => {
                   </div> 
                 </div>
                 <p className="text-black/70 text-center text-xs sm:text-sm">
-                  <span className="hidden sm:inline">Rejoignez la liste d'attente et bénéficiez d'avantages exclusifs</span>
-                  <span className="sm:hidden">Liste d'attente avec avantages exclusifs</span>
+                  <span className="hidden sm:inline">Rejoignez la liste d&apos;attente et bénéficiez d&apos;avantages exclusifs</span>
+                  <span className="sm:hidden">Liste d&apos;attente avec avantages exclusifs</span>
                 </p>
               </div>
             </div>
