@@ -1,0 +1,22 @@
+{
+  "name": "ILEX - Livraison Express",
+  "short_name": "ILEX",
+  "description": "Service de livraison express en 30 minutes à Abidjan",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#f97316",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}
