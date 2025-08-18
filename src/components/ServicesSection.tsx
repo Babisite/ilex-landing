@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 const ServicesSection: React.FC = () => {
   return (
     <section className="relative min-h-[60vh] sm:min-h-[80vh] lg:min-h-screen bg-black text-white overflow-hidden">
@@ -202,10 +204,12 @@ const ServicesSection: React.FC = () => {
             <span className="hidden sm:inline">Besoin d&apos;un service personnalisé ?</span>
             <span className="sm:hidden">Service personnalisé ?</span>
           </p>
-          <button className="bg-gradient-to-r from-yellow-400 to-orange-400 text-black px-6 sm:px-10 lg:px-12 py-3 sm:py-4 text-sm sm:text-lg lg:text-xl font-bold rounded-xl sm:rounded-2xl hover:from-yellow-500 hover:to-orange-500 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
-            <span className="sm:hidden">Contact</span>
-            <span className="hidden sm:inline">Contactez-nous</span>
-          </button>
+          <Link href="/contact">
+            <button className="bg-gradient-to-r from-yellow-400 to-orange-400 text-black px-6 sm:px-10 lg:px-12 py-3 sm:py-4 text-sm sm:text-lg lg:text-xl font-bold rounded-xl sm:rounded-2xl hover:from-yellow-500 hover:to-orange-500 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+              <span className="sm:hidden">Contact</span>
+              <span className="hidden sm:inline">Contactez-nous</span>
+            </button>
+          </Link>
         </div>
       </div>
 

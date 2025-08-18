@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import Link from 'next/link';
 import { textAnimations, elementAnimations, microInteractions } from '@/utils/animations';
 
 interface Service {
@@ -277,16 +278,18 @@ const Services: React.FC = () => {
           >
             Besoin d&apos;un service personnalisé ?
           </p>
-          <button 
-            className="btn btn-secondary will-animate"
-            style={{
-              background: 'var(--yellow-electric)',
-              color: 'var(--black-pure)',
-              border: '2px solid var(--yellow-electric)'
-            }}
-          >
-            Contactez-nous
-          </button>
+          <Link href="/contact">
+            <button 
+              className="btn btn-secondary will-animate"
+              style={{
+                background: 'var(--yellow-electric)',
+                color: 'var(--black-pure)',
+                border: '2px solid var(--yellow-electric)'
+              }}
+            >
+              Contactez-nous
+            </button>
+          </Link>
         </div>
       </div>
 
