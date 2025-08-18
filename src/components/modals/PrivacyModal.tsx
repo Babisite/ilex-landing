@@ -50,7 +50,7 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Données collectées</h3>
                 <div className="space-y-4">
                   <div className="bg-amber-50 p-6 rounded-2xl">
-                    <h4 className="text-xl font-bold text-amber-600 mb-2">📱 Informations d'inscription</h4>
+                    <h4 className="text-xl font-bold text-amber-600 mb-2">📱 Informations d&apos;inscription</h4>
                     <ul className="text-gray-700 list-disc list-inside space-y-1">
                       <li>Nom et prénom</li>
                       <li>Adresse email</li>
@@ -106,7 +106,7 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Vos droits</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-orange-50 p-4 rounded-xl">
-                    <h4 className="font-bold text-orange-600 mb-2">✅ Droit d'accès</h4>
+                    <h4 className="font-bold text-orange-600 mb-2">✅ Droit d&apos;accès</h4>
                     <p className="text-sm text-gray-700">Consulter vos données personnelles</p>
                   </div>
                   <div className="bg-yellow-50 p-4 rounded-xl">
@@ -156,7 +156,7 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) => {
                       <strong>Téléphone :</strong> +225 07 10 17 91 40
                     </p>
                     <p className="text-gray-700">
-                      <strong>Adresse :</strong> Abidjan, Côte d'Ivoire
+                      <strong>Adresse :</strong> Abidjan, Côte d&apos;Ivoire
                     </p>
                   </div>
                 </div>
@@ -170,7 +170,7 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) => {
               onClick={onClose}
               className="px-8 py-3 bg-gradient-to-r from-amber-600 to-yellow-600 text-white font-bold rounded-2xl hover:from-amber-700 hover:to-yellow-700 transition-all duration-300 transform hover:scale-105"
             >
-              J'ai compris
+              J&apos;ai compris
             </button>
           </div>
         </div>

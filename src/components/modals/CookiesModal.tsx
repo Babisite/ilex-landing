@@ -39,10 +39,10 @@ const CookiesModal: React.FC<CookiesModalProps> = ({ isOpen, onClose }) => {
           <div className="px-8 py-6 overflow-y-auto max-h-[70vh]">
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Qu'est-ce que les cookies ?</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Qu&apos;est-ce que les cookies ?</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez notre site web. 
-                  Ils nous aident à améliorer votre expérience utilisateur et à analyser l'utilisation de notre site.
+                  Ils nous aident à améliorer votre expérience utilisateur et à analyser l&apos;utilisation de notre site.
                 </p>
               </div>
               
@@ -52,21 +52,21 @@ const CookiesModal: React.FC<CookiesModalProps> = ({ isOpen, onClose }) => {
                   <div className="bg-orange-50 p-6 rounded-2xl">
                     <h4 className="text-xl font-bold text-orange-600 mb-2">🔧 Cookies Essentiels</h4>
                     <p className="text-gray-700">
-                      Nécessaires au fonctionnement du site. Ils permettent la navigation et l'utilisation des fonctionnalités de base.
+                      Nécessaires au fonctionnement du site. Ils permettent la navigation et l&apos;utilisation des fonctionnalités de base.
                     </p>
                   </div>
                   
                   <div className="bg-yellow-50 p-6 rounded-2xl">
                     <h4 className="text-xl font-bold text-yellow-600 mb-2">📊 Cookies Analytiques</h4>
                     <p className="text-gray-700">
-                      Nous aident à comprendre comment vous utilisez notre site pour l'améliorer continuellement.
+                      Nous aident à comprendre comment vous utilisez notre site pour l&apos;améliorer continuellement.
                     </p>
                   </div>
                   
                   <div className="bg-blue-50 p-6 rounded-2xl">
                     <h4 className="text-xl font-bold text-blue-600 mb-2">🎯 Cookies Marketing</h4>
                     <p className="text-gray-700">
-                      Utilisés pour personnaliser les publicités et mesurer l'efficacité de nos campagnes.
+                      Utilisés pour personnaliser les publicités et mesurer l&apos;efficacité de nos campagnes.
                     </p>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ const CookiesModal: React.FC<CookiesModalProps> = ({ isOpen, onClose }) => {
               onClick={onClose}
               className="px-8 py-3 bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold rounded-2xl hover:from-orange-600 hover:to-yellow-600 transition-all duration-300 transform hover:scale-105"
             >
-              J'ai compris
+              J&apos;ai compris
             </button>
           </div>
         </div>

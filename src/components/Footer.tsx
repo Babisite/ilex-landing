@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
                         </Link>
 
                         <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                            La révolution de la livraison en Côte d'Ivoire arrive bientôt.
+                            La révolution de la livraison en Côte d&apos;Ivoire arrive bientôt.
                             Restez connectés pour ne rien manquer !
                         </p>
                     </div>
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
                                 Restez informé du lancement
                             </h3>
                             <p className="text-gray-300">
-                                Soyez parmi les premiers à découvrir ILEX et bénéficiez d'offres exclusives
+                                Soyez parmi les premiers à découvrir ILEX et bénéficiez d&apos;offres exclusives
                             </p>
                         </div>
 
@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
                                 className="flex-1 px-6 py-4 bg-gray-800 border border-gray-700 text-white placeholder-gray-400 rounded-xl focus:outline-none focus:border-orange-400 transition-colors"
                             />
                             <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-8 py-4 font-bold rounded-xl hover:from-orange-600 hover:to-yellow-600 transition-all duration-300 hover:scale-105">
-                                S'inscrire
+                                S&apos;inscrire
                             </button>
                         </div>
                     </div>

@@ -49,7 +49,7 @@ const ServicesSection: React.FC = () => {
             <span className="text-white">Rapide</span>
           </h2>
           <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-medium">
-            <span className="hidden sm:inline">Des solutions adaptées à tous vos besoins de livraison avec un service d'exception</span>
+            <span className="hidden sm:inline">Des solutions adaptées à tous vos besoins de livraison avec un service d&apos;exception</span>
             <span className="sm:hidden">Solutions de livraison rapide</span>
           </p>
         </div>
@@ -199,7 +199,7 @@ const ServicesSection: React.FC = () => {
         {/* CTA Section - optimisé mobile */}
         <div className="text-center mt-8 sm:mt-12 lg:mt-20">
           <p className="text-sm sm:text-lg lg:text-xl text-gray-300 mb-4 sm:mb-6 lg:mb-8">
-            <span className="hidden sm:inline">Besoin d'un service personnalisé ?</span>
+            <span className="hidden sm:inline">Besoin d&apos;un service personnalisé ?</span>
             <span className="sm:hidden">Service personnalisé ?</span>
           </p>
           <button className="bg-gradient-to-r from-yellow-400 to-orange-400 text-black px-6 sm:px-10 lg:px-12 py-3 sm:py-4 text-sm sm:text-lg lg:text-xl font-bold rounded-xl sm:rounded-2xl hover:from-yellow-500 hover:to-orange-500 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">

@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
-import { textAnimations, elementAnimations, microInteractions } from '@/utils/animations';
+// import Image from 'next/image';
+import { textAnimations } from '@/utils/animations';
 import SectionWrapper from './SectionWrapper';
 
 interface Testimonial {
@@ -94,7 +94,7 @@ const partnerLogos = [
 ];
 
 const Trust: React.FC = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  // const sectionRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const testimonialsRef = useRef<HTMLDivElement>(null);
@@ -286,7 +286,7 @@ const Trust: React.FC = () => {
                       className="text-large font-medium mb-8 leading-relaxed"
                       style={{ color: 'var(--white-warm)' }}
                     >
-                      "{testimonial.content}"
+                      &quot;{testimonial.content}&quot;
                     </blockquote>
 
                     {/* Author Info */}
@@ -341,7 +341,7 @@ const Trust: React.FC = () => {
 
           {/* Trust Stats */}
           <div ref={statsRef} className="grid grid-cols-2 gap-8">
-            {trustStats.map((stat, index) => (
+            {trustStats.map((stat) => (
               <div
                 key={stat.id}
                 className="trust-stat text-center will-animate"

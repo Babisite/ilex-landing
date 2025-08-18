@@ -51,7 +51,7 @@ const services: Service[] = [
 ];
 
 const Services: React.FC = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  // const sectionRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const cardsRef = useRef<HTMLDivElement>(null);
@@ -143,7 +143,7 @@ const Services: React.FC = () => {
 
         {/* Services Grid */}
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          {services.map((service, index) => (
+          {services.map((service) => (
             <div
               key={service.id}
               className={`service-card relative p-8 will-animate ${
@@ -276,7 +276,7 @@ const Services: React.FC = () => {
             className="text-large font-medium mb-8"
             style={{ color: 'var(--white-warm)' }}
           >
-            Besoin d'un service personnalisé ?
+            Besoin d&apos;un service personnalisé ?
           </p>
           <button 
             className="btn btn-secondary will-animate"

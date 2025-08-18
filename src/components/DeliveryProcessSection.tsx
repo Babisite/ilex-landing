@@ -35,7 +35,7 @@ const DeliveryProcessSection: React.FC = () => {
             </span>
           </h2>
           <p className="text-sm sm:text-lg lg:text-xl text-gray-300 max-w-2xl mx-auto">
-            <span className="hidden sm:inline">Un processus simple en 3 étapes pour rejoindre l'équipe ILEX</span>
+            <span className="hidden sm:inline">Un processus simple en 3 étapes pour rejoindre l&apos;équipe ILEX</span>
             <span className="sm:hidden">3 étapes simples pour rejoindre ILEX</span>
           </p>
         </div>

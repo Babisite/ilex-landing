@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+// import Link from 'next/link';
 import Image from 'next/image';
 
 const ProcessSection: React.FC = () => {
@@ -154,7 +154,7 @@ const ProcessSection: React.FC = () => {
                             <div className="text-2xl sm:text-3xl lg:text-4xl mb-2 sm:mb-3 lg:mb-4 group-hover:scale-110 transition-transform duration-300">🎯</div>
                             <h3 className="text-sm sm:text-lg lg:text-2xl font-black text-gray-900 mb-2 sm:mb-3 lg:mb-4">Livraison</h3>
                             <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">
-                                <span className="hidden sm:inline">Réception de votre commande à l'adresse indiquée, en toute sécurité</span>
+                                <span className="hidden sm:inline">Réception de votre commande à l&apos;adresse indiquée, en toute sécurité</span>
                                 <span className="sm:hidden">Livré chez vous</span>
                             </p>
 
@@ -170,7 +170,7 @@ const ProcessSection: React.FC = () => {
                 <div className="text-center">
                     <div className="bg-white/60 backdrop-blur-sm border border-orange-200 rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 max-w-4xl mx-auto shadow-xl">
                         <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-gray-900 mb-4 sm:mb-6">
-                            <span className="hidden sm:inline">Prêt à vivre l'expérience ?</span>
+                            <span className="hidden sm:inline">Prêt à vivre l&apos;expérience ?</span>
                             <span className="sm:hidden">Prêt à tester ?</span>
                         </h3>
 

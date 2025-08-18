@@ -65,7 +65,7 @@ const processSteps: ProcessStep[] = [
 ];
 
 const Process: React.FC = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  // const sectionRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const timelineRef = useRef<HTMLDivElement>(null);

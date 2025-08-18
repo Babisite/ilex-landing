@@ -60,7 +60,7 @@ const Header: React.FC = () => {
                         ))}
                         <li>
                             <Link href="https://play.google.com/console/" className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-6 py-3 font-bold transition-all duration-300 hover:from-orange-600 hover:to-yellow-600 hover:shadow-lg rounded-xl">
-                                Télécharger l'app
+                                Télécharger l&apos;app
                             </Link>
                         </li>
                         <li>
@@ -126,7 +126,7 @@ const Header: React.FC = () => {
                                     className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-6 py-3 font-bold block text-center transition-all duration-300 hover:from-orange-600 hover:to-yellow-600 rounded-xl shadow-lg"
                                     onClick={toggleMenu}
                                 >
-                                    Télécharger l'app
+                                    Télécharger l&apos;app
                                 </Link>
                             </li>
                             <li>
