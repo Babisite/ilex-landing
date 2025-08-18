@@ -114,7 +114,7 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) => {
                     <p className="text-sm text-gray-700">Corriger vos informations</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-xl">
-                    <h4 className="font-bold text-red-600 mb-2">🗑️ Droit à l'effacement</h4>
+                    <h4 className="font-bold text-red-600 mb-2">🗑️ Droit à l&apos;effacement</h4>
                     <p className="text-sm text-gray-700">Supprimer vos données</p>
                   </div>
                   <div className="bg-amber-50 p-4 rounded-xl">
