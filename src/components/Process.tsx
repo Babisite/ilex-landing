@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from 'react';
 import { textAnimations, elementAnimations, microInteractions } from '@/utils/animations';
-import SectionWrapper from './SectionWrapper';
 
 interface ProcessStep {
   id: string;
@@ -147,7 +146,7 @@ const Process: React.FC = () => {
   }, []);
 
   return (
-    <SectionWrapper sectionId="process">
+    <section id="process" className="relative">
       <div className="container">
         <div className="text-center mb-20">
           {/* Section Title */}
@@ -323,7 +322,7 @@ const Process: React.FC = () => {
           style={{ background: 'var(--gradient-dawn)' }}
         ></div>
       </div>
-    </SectionWrapper>
+    </section>
   );
 };
 

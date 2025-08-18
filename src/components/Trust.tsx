@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from 'react';
 // import Image from 'next/image';
 import { textAnimations } from '@/utils/animations';
-import SectionWrapper from './SectionWrapper';
 
 interface Testimonial {
   id: string;
@@ -227,7 +226,7 @@ const Trust: React.FC = () => {
   }, []);
 
   return (
-    <SectionWrapper sectionId="trust">
+    <section id="trust" className="relative">
       <div className="container">
         <div className="text-center mb-20">
           {/* Section Title */}
@@ -409,7 +408,7 @@ const Trust: React.FC = () => {
           style={{ background: 'var(--white-warm)' }}
         ></div>
       </div>
-    </SectionWrapper>
+    </section>
   );
 };
 

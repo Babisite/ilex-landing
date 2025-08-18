@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from 'react';
 import { textAnimations, elementAnimations, microInteractions } from '@/utils/animations';
-import SectionWrapper from './SectionWrapper';
 
 interface Service {
   id: string;
@@ -116,7 +115,7 @@ const Services: React.FC = () => {
   }, []);
 
   return (
-    <SectionWrapper sectionId="services">
+    <section id="services" className="relative">
       <div className="container">
         <div className="text-center mb-20">
           {/* Section Title - Yellow Electric */}
@@ -302,7 +301,7 @@ const Services: React.FC = () => {
           style={{ background: 'var(--gradient-fire)' }}
         ></div>
       </div>
-    </SectionWrapper>
+    </section>
   );
 };
 
