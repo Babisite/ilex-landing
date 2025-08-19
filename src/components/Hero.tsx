@@ -97,9 +97,9 @@ const Hero: React.FC = () => {
                   <Image
                     src="/images/google-play-badge.png"
                     width={160}
-                    height={60}
+                    height={50}
                     alt="Télécharger sur Google Play"
-                    className="h-auto w-[130px] sm:w-[160px] lg:w-[180px]"
+                    className="h-auto w-[130px] sm:w-[140px] lg:w-[180px]"
                   />
                 </a>
               </div>
@@ -108,13 +108,13 @@ const Hero: React.FC = () => {
 
           {/* Right Content - Mockup amélioré sur mobile */}
           <div className="relative flex justify-center lg:justify-end -mt-2 sm:-mt-6 lg:-mt-32">
-            <div className="relative w-full max-w-[190px] sm:max-w-[220px] lg:max-w-md">
+            <div className="relative w-full max-w-[120px] sm:max-w-[220px] lg:max-w-md mt-4">
               {/* Mockup principal */}
               <div className="relative z-20">
                 <Image
                   src="/images/hero.png"
                   width={600}
-                  height={800}
+                  height={50}
                   quality={100}
                   priority={true}
                   alt="Application ILEX - Interface mobile"

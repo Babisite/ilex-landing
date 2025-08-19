@@ -6,7 +6,9 @@
       "WebFetch(domain:alvarotrigo.com)",
       "WebFetch(domain:iwasherefirst2.medium.com)",
       "WebFetch(domain:www.npmjs.com)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(rm:*)",
+      "Bash(npm run dev:*)"
     ],
     "deny": [],
     "ask": []
