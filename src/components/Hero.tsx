@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Wave from 'react-wavify';
 
 const Hero: React.FC = () => {
   return (
@@ -49,7 +50,7 @@ const Hero: React.FC = () => {
           {/* Left Content - Ultra compact sur mobile */}
           <div className="space-y-1 sm:space-y-3 lg:space-y-8 mt-4 sm:mt-8 lg:mt-0">
             <div className="space-y-0.5 sm:space-y-2 lg:space-y-6">
-              <h1 className="text-lg sm:text-2xl md:text-4xl lg:text-7xl xl:text-8xl font-black text-gray-900 leading-[0.8]">
+              <h1 className="text-4xl sm:text-2xl md:text-4xl lg:text-7xl xl:text-8xl font-black text-gray-900 leading-[0.8]">
                 <span className="block">LIVRAISON</span>
                 <span className="block bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
                   EXPRESS
@@ -61,7 +62,7 @@ const Hero: React.FC = () => {
 
               <p className="text-[10px] sm:text-sm md:text-base lg:text-2xl text-gray-700 leading-tight font-medium">
                 <span className="hidden sm:inline">Commandez, suivez en temps réel, payez à la livraison. ILEX transforme vos livraisons.</span>
-                <span className="sm:hidden">Express 30min</span>
+               
               </p>
             </div>
 
@@ -105,9 +106,9 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Content - Mockup ultra compact sur mobile */}
-          <div className="relative flex justify-end lg:justify-end -mt-2 sm:-mt-6 lg:-mt-32">
-            <div className="relative w-full max-w-[100px] sm:max-w-[200px] lg:max-w-md">
+          {/* Right Content - Mockup amélioré sur mobile */}
+          <div className="relative flex justify-center lg:justify-end -mt-2 sm:-mt-6 lg:-mt-32">
+            <div className="relative w-full max-w-[190px] sm:max-w-[220px] lg:max-w-md">
               {/* Mockup principal */}
               <div className="relative z-20">
                 <Image
@@ -136,14 +137,68 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Transition fluide vers la section suivante - ultra réduite sur mobile */}
-      <div
-        className="absolute bottom-0 left-0 right-0 h-8 sm:h-16 lg:h-32 bg-white"
-        style={{
-          borderRadius: '40px 40px 0 0',
-          transform: 'translateY(50%)'
-        }}
-      ></div>
+      {/* Animation Wave avec react-wavify */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 sm:h-40 lg:h-48">
+        {/* Wave Layer 1 - Principal */}
+        <div className="absolute bottom-0 w-full h-full">
+          <Wave
+            fill="rgba(255,255,255,0.8)"
+            paused={false}
+            options={{
+              height: 40,
+              amplitude: 30,
+              speed: 0.2,
+              points: 4
+            }}
+          />
+        </div>
+
+        {/* Wave Layer 2 - Orange */}
+        <div className="absolute bottom-0 w-full h-3/4 transform translate-y-4">
+          <Wave
+            fill="rgba(251,146,60,0.6)"
+            paused={false}
+            options={{
+              height: 25,
+              amplitude: 20,
+              speed: 0.15,
+              points: 3
+            }}
+          />
+        </div>
+
+        {/* Wave Layer 3 - Jaune */}
+        <div className="absolute bottom-0 w-full h-1/2 transform translate-y-8">
+          <Wave
+            fill="rgba(234,179,8,0.4)"
+            paused={false}
+            options={{
+              height: 15,
+              amplitude: 15,
+              speed: 0.25,
+              points: 5
+            }}
+          />
+        </div>
+
+        {/* Particules flottantes */}
+        <div className="absolute bottom-0 w-full h-full pointer-events-none">
+          {[...Array(8)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute rounded-full bg-gradient-to-r from-orange-400 to-yellow-400 opacity-40"
+              style={{
+                width: `${Math.random() * 6 + 3}px`,
+                height: `${Math.random() * 6 + 3}px`,
+                left: `${Math.random() * 100}%`,
+                bottom: `${Math.random() * 100}%`,
+                animation: `float ${Math.random() * 4 + 3}s ease-in-out infinite`,
+                animationDelay: `${Math.random() * 3}s`
+              }}
+            />
+          ))}
+        </div>
+      </div>
 
       {/* Animations CSS */}
       <style jsx>{`

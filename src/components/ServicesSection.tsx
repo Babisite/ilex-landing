@@ -7,9 +7,9 @@ const ServicesSection: React.FC = () => {
     <section className="relative min-h-[60vh] sm:min-h-[80vh] lg:min-h-screen bg-black text-white overflow-hidden">
       {/* Blobs décoratifs organiques sur fond noir - optimisés mobile */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Blob principal jaune - réduit sur mobile */}
+        {/* Blob principal jaune - caché sur mobile */}
         <div
-          className="absolute top-10 sm:top-20 right-5 sm:right-10 w-40 sm:w-60 lg:w-80 h-40 sm:h-60 lg:h-80 bg-gradient-to-br from-yellow-400 to-orange-400 opacity-8 sm:opacity-10"
+          className="hidden sm:block absolute top-10 sm:top-20 right-5 sm:right-10 w-40 sm:w-60 lg:w-80 h-40 sm:h-60 lg:h-80 bg-gradient-to-br from-yellow-400 to-orange-400 opacity-8 sm:opacity-10"
           style={{
             borderRadius: '60% 40% 30% 70% / 60% 30% 70% 40%',
             animation: 'float 8s ease-in-out infinite'
@@ -134,8 +134,8 @@ const ServicesSection: React.FC = () => {
 
           {/* Service Déménagement - optimisé mobile */}
           <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-500 opacity-8 sm:opacity-10 blur-lg sm:blur-xl group-hover:opacity-15 sm:group-hover:opacity-20 transition-opacity duration-500"></div>
-            <div className="relative bg-gray-900/60 backdrop-blur-sm border border-gray-800 p-3 sm:p-6 lg:p-8 text-center hover:border-blue-500 transition-all duration-500 group-hover:transform group-hover:scale-105 rounded-2xl sm:rounded-3xl">
+            <div className="absolute inset-0 bg-gradient-to-br from-amber-600 to-amber-500 opacity-8 sm:opacity-10 blur-lg sm:blur-xl group-hover:opacity-15 sm:group-hover:opacity-20 transition-opacity duration-500"></div>
+            <div className="relative bg-gray-900/60 backdrop-blur-sm border border-gray-800 p-3 sm:p-6 lg:p-8 text-center hover:border-amber-500 transition-all duration-500 group-hover:transform group-hover:scale-105 rounded-2xl sm:rounded-3xl">
               <div className="text-3xl sm:text-5xl lg:text-6xl mb-2 sm:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">🚚</div>
               <h3 className="text-sm sm:text-xl lg:text-2xl font-black text-white mb-2 sm:mb-3 lg:mb-4">
                 <span className="sm:hidden">Déménag.</span>
@@ -147,7 +147,7 @@ const ServicesSection: React.FC = () => {
               </p>
 
               <div className="mb-3 sm:mb-4 lg:mb-6">
-                <div className="flex items-center justify-center gap-1 sm:gap-2 text-blue-400 mb-1 sm:mb-2">
+                <div className="flex items-center justify-center gap-1 sm:gap-2 text-amber-400 mb-1 sm:mb-2">
                   <svg className="w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
@@ -159,7 +159,7 @@ const ServicesSection: React.FC = () => {
                 <div className="text-[10px] sm:text-xs lg:text-sm text-gray-400">Protection totale</div>
               </div>
 
-              <button className="border-2 border-blue-500 text-blue-400 px-2 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 font-bold w-full rounded-lg sm:rounded-xl lg:rounded-2xl hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-105 text-xs sm:text-sm lg:text-base">
+              <button className="border-2 border-amber-500 text-amber-400 px-2 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 font-bold w-full rounded-lg sm:rounded-xl lg:rounded-2xl hover:bg-amber-500 hover:text-white transition-all duration-300 transform hover:scale-105 text-xs sm:text-sm lg:text-base">
                 <span className="sm:hidden">Déménag.</span>
                 <span className="hidden sm:inline">Déménagement</span>
               </button>

@@ -90,13 +90,13 @@ const ProcessSection: React.FC = () => {
 
                     {/* Étape 2 - optimisé mobile */}
                     <div className="group relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-300 opacity-12 sm:opacity-15 blur-lg sm:blur-xl group-hover:opacity-20 sm:group-hover:opacity-25 transition-opacity duration-500"></div>
-                        <div className="relative bg-white/80 backdrop-blur-sm border border-blue-200 p-3 sm:p-6 lg:p-8 text-center hover:border-blue-400 transition-all duration-500 group-hover:transform group-hover:scale-105 rounded-2xl sm:rounded-3xl shadow-lg">
+                        <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-amber-300 opacity-12 sm:opacity-15 blur-lg sm:blur-xl group-hover:opacity-20 sm:group-hover:opacity-25 transition-opacity duration-500"></div>
+                        <div className="relative bg-white/80 backdrop-blur-sm border border-amber-200 p-3 sm:p-6 lg:p-8 text-center hover:border-amber-400 transition-all duration-500 group-hover:transform group-hover:scale-105 rounded-2xl sm:rounded-3xl shadow-lg">
                             <div className="relative mb-3 sm:mb-6 lg:mb-8">
-                                <div className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-blue-500 to-blue-400 text-white text-sm sm:text-xl lg:text-2xl font-black flex items-center justify-center mx-auto rounded-xl sm:rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                                <div className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-amber-500 to-amber-400 text-white text-sm sm:text-xl lg:text-2xl font-black flex items-center justify-center mx-auto rounded-xl sm:rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
                                     02
                                 </div>
-                                <div className="hidden lg:block absolute top-6 sm:top-8 lg:top-10 left-full w-8 h-0.5 bg-gradient-to-r from-blue-300 to-transparent"></div>
+                                <div className="hidden lg:block absolute top-6 sm:top-8 lg:top-10 left-full w-8 h-0.5 bg-gradient-to-r from-amber-300 to-transparent"></div>
                             </div>
 
                             <div className="text-2xl sm:text-3xl lg:text-4xl mb-2 sm:mb-3 lg:mb-4 group-hover:scale-110 transition-transform duration-300">📦</div>
@@ -109,7 +109,7 @@ const ProcessSection: React.FC = () => {
                                 <span className="sm:hidden">Préparation soignée</span>
                             </p>
 
-                            <div className="mt-2 sm:mt-3 lg:mt-4 inline-block bg-blue-100 text-blue-600 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-bold">
+                            <div className="mt-2 sm:mt-3 lg:mt-4 inline-block bg-amber-100 text-amber-600 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-bold">
                                 <span className="sm:hidden">5-10min</span>
                                 <span className="hidden sm:inline">5-10 minutes</span>
                             </div>
@@ -118,13 +118,13 @@ const ProcessSection: React.FC = () => {
 
                     {/* Étape 3 - optimisé mobile */}
                     <div className="group relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-purple-300 opacity-12 sm:opacity-15 blur-lg sm:blur-xl group-hover:opacity-20 sm:group-hover:opacity-25 transition-opacity duration-500"></div>
-                        <div className="relative bg-white/80 backdrop-blur-sm border border-purple-200 p-3 sm:p-6 lg:p-8 text-center hover:border-purple-400 transition-all duration-500 group-hover:transform group-hover:scale-105 rounded-2xl sm:rounded-3xl shadow-lg">
+                        <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-300 opacity-12 sm:opacity-15 blur-lg sm:blur-xl group-hover:opacity-20 sm:group-hover:opacity-25 transition-opacity duration-500"></div>
+                        <div className="relative bg-white/80 backdrop-blur-sm border border-green-200 p-3 sm:p-6 lg:p-8 text-center hover:border-green-400 transition-all duration-500 group-hover:transform group-hover:scale-105 rounded-2xl sm:rounded-3xl shadow-lg">
                             <div className="relative mb-3 sm:mb-6 lg:mb-8">
-                                <div className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-purple-500 to-purple-400 text-white text-sm sm:text-xl lg:text-2xl font-black flex items-center justify-center mx-auto rounded-xl sm:rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                                <div className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-green-500 to-green-400 text-white text-sm sm:text-xl lg:text-2xl font-black flex items-center justify-center mx-auto rounded-xl sm:rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
                                     03
                                 </div>
-                                <div className="hidden lg:block absolute top-6 sm:top-8 lg:top-10 left-full w-8 h-0.5 bg-gradient-to-r from-purple-300 to-transparent"></div>
+                                <div className="hidden lg:block absolute top-6 sm:top-8 lg:top-10 left-full w-8 h-0.5 bg-gradient-to-r from-green-300 to-transparent"></div>
                             </div>
 
                             <div className="text-2xl sm:text-3xl lg:text-4xl mb-2 sm:mb-3 lg:mb-4 group-hover:scale-110 transition-transform duration-300">🚴‍♂️</div>
@@ -134,7 +134,7 @@ const ProcessSection: React.FC = () => {
                                 <span className="sm:hidden">Récupération rapide</span>
                             </p>
 
-                            <div className="mt-2 sm:mt-3 lg:mt-4 inline-block bg-purple-100 text-purple-600 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-bold">
+                            <div className="mt-2 sm:mt-3 lg:mt-4 inline-block bg-green-100 text-green-600 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-bold">
                                 <span className="sm:hidden">Live</span>
                                 <span className="hidden sm:inline">Temps réel</span>
                             </div>

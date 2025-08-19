@@ -7,10 +7,7 @@ import {
     FaFacebookF,
     FaInstagram,
     FaTwitter,
-    FaLinkedinIn,
-    FaTiktok,
-    FaWhatsapp,
-    FaYoutube
+    FaLinkedinIn
 } from 'react-icons/fa';
 
 // Import des modals
@@ -135,24 +132,6 @@ const Footer: React.FC = () => {
                                     icon: <FaLinkedinIn className="w-5 h-5" />,
                                     url: 'https://linkedin.com/company/ilex-delivery',
                                     color: 'hover:bg-blue-700'
-                                },
-                                {
-                                    name: 'TikTok',
-                                    icon: <FaTiktok className="w-5 h-5" />,
-                                    url: 'https://tiktok.com/@ilex-delivery',
-                                    color: 'hover:bg-black'
-                                },
-                                {
-                                    name: 'WhatsApp',
-                                    icon: <FaWhatsapp className="w-5 h-5" />,
-                                    url: 'https://wa.me/+2250710179140',
-                                    color: 'hover:bg-green-500'
-                                },
-                                {
-                                    name: 'YouTube',
-                                    icon: <FaYoutube className="w-5 h-5" />,
-                                    url: 'https://youtube.com/@ilex-delivery',
-                                    color: 'hover:bg-red-600'
                                 },
                             ].map((social) => (
                                 <Link

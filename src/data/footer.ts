@@ -8,30 +8,9 @@ export const footerDetails: {
     socials: ISocials;
 } = {
     subheading: "ILEX - Livraison express et déménagement à Abidjan. Service fiable, économique et professionnel.",
-    quickLinks: [
-        {
-            text: "Accueil",
-            url: "/#hero"
-        },
-        {
-            text: "Avantages",
-            url: "#features"
-        },
-        {
-            text: "Tarifs",
-            url: "#pricing"
-        },
-        {
-            text: "Témoignages",
-            url: "#testimonials"
-        },
-        {
-            text: "FAQ",
-            url: "#faq"
-        }
-    ],
-    email: 'contact@ilex-abidjan.com',
-    telephone: '+225 07 07 07 07',
+ 
+    email: 'contact@ilex-delivery.com',
+    telephone: '+225 07 10 17 91 40',
     socials: {
         instagram: 'https://www.instagram.com',
         facebook: 'https://facebook.com',

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:foolishdeveloper.com)",
+      "WebFetch(domain:alvarotrigo.com)",
+      "WebFetch(domain:iwasherefirst2.medium.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npm install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

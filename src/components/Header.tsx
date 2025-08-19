@@ -32,8 +32,8 @@ const Header: React.FC = () => {
                 : 'bg-white/80 backdrop-blur-sm'
             }`}>
             <Container className="!px-0">
-                <nav className="mx-auto flex justify-between items-center py-4 px-4 md:py-2">
-                    {/* Logo Ultra Modern */}
+                <nav className="mx-auto flex justify-between items-center py-0.5 px-4 md:py-2">
+         
                     <Link href="/" className="group flex items-center">
                         <div className="relative">
                             <Image
@@ -41,7 +41,7 @@ const Header: React.FC = () => {
                                 alt="ILEX Logo"
                                 width={150}
                                 height={150}
-                                className="transition-all duration-300 group-hover:scale-110"
+                                className="h-auto w-18 sm:w-20 md:w-24 transition-all duration-300 group-hover:scale-110"
                             />
                             {/* Glow effect */}
                             <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-yellow-400 opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300 rounded-2xl"></div>
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="https://play.google.com/console/" className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-6 py-3 font-bold transition-all duration-300 hover:from-orange-600 hover:to-yellow-600 hover:shadow-lg rounded-xl">
+                            <Link href="https://play.google.com/" className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-6 py-3 font-bold transition-all duration-300 hover:from-orange-600 hover:to-yellow-600 hover:shadow-lg rounded-xl">
                                 Télécharger l&apos;app
                             </Link>
                         </li>
@@ -75,14 +75,14 @@ const Header: React.FC = () => {
                         <button
                             onClick={toggleMenu}
                             type="button"
-                            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white focus:outline-none w-12 h-12 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 rounded-2xl"
+                            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white focus:outline-none w-9 h-9 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 rounded-xl"
                             aria-controls="mobile-menu"
                             aria-expanded={isOpen}
                         >
                             {isOpen ? (
-                                <HiOutlineXMark className="h-6 w-6" aria-hidden="true" />
+                                <HiOutlineXMark className="h-5 w-5" aria-hidden="true" />
                             ) : (
-                                <HiBars3 className="h-6 w-6" aria-hidden="true" />
+                                <HiBars3 className="h-5 w-5" aria-hidden="true" />
                             )}
                             <span className="sr-only">Toggle navigation</span>
                         </button>
@@ -90,7 +90,7 @@ const Header: React.FC = () => {
                 </nav>
             </Container>
 
-            {/* Mobile Menu Ultra Modern */}
+            {/* Mobile Menu  */}
             <Transition
                 show={isOpen}
                 enter="transition ease-out duration-300 transform"
@@ -122,7 +122,7 @@ const Header: React.FC = () => {
                             ))}
                             <li className="pt-4">
                                 <Link
-                                    href="https://play.google.com/console/"
+                                    href="https://play.google.com/"
                                     className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-6 py-3 font-bold block text-center transition-all duration-300 hover:from-orange-600 hover:to-yellow-600 rounded-xl shadow-lg"
                                     onClick={toggleMenu}
                                 >

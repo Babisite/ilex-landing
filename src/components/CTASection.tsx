@@ -9,7 +9,7 @@ const CTASection: React.FC = () => {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Blob principal rouge - réduit mobile */}
         <div
-          className="absolute top-10 sm:top-20 right-10 sm:right-20 w-48 sm:w-80 lg:w-96 h-48 sm:h-80 lg:h-96 bg-gradient-to-br from-red-400 to-pink-400 opacity-15 sm:opacity-20"
+          className="absolute top-10 sm:top-20 right-10 sm:right-20 w-48 sm:w-80 lg:w-96 h-48 sm:h-80 lg:h-96 bg-gradient-to-br from-orange-400 to-yellow-400 opacity-15 sm:opacity-20"
           style={{
             borderRadius: '60% 40% 30% 70% / 60% 30% 70% 40%',
             animation: 'float 10s ease-in-out infinite'
@@ -18,7 +18,7 @@ const CTASection: React.FC = () => {
 
         {/* Blob secondaire violet - réduit mobile */}
         <div
-          className="absolute bottom-16 sm:bottom-32 left-10 sm:left-20 w-40 sm:w-64 lg:w-80 h-40 sm:h-64 lg:h-80 bg-gradient-to-br from-purple-400 to-blue-400 opacity-10 sm:opacity-15"
+          className="absolute bottom-16 sm:bottom-32 left-10 sm:left-20 w-40 sm:w-64 lg:w-80 h-40 sm:h-64 lg:h-80 bg-gradient-to-br from-green-400 to-lime-400 opacity-10 sm:opacity-15"
           style={{
             borderRadius: '40% 60% 70% 30% / 40% 70% 30% 60%',
             animation: 'float 8s ease-in-out infinite reverse'
